@@ -298,6 +298,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 1254581680}
     m_Modifications:
     - target: {fileID: 827228423, guid: c5efc39a8aaf6e64ea40e9ad573e9b47, type: 3}
+      propertyPath: hitEffect
+      value: 
+      objectReference: {fileID: 216587030436623059, guid: 8d8ede20163ae5f4a939a225db9ba86c, type: 3}
+    - target: {fileID: 827228423, guid: c5efc39a8aaf6e64ea40e9ad573e9b47, type: 3}
       propertyPath: muzzleFlash
       value: 
       objectReference: {fileID: 370695496}
@@ -928,5 +932,9 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5952523677005312492, guid: 5ac58509597179f4bb77f69472de2639, type: 3}
+      propertyPath: target
+      value: 
+      objectReference: {fileID: 1254581680}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ac58509597179f4bb77f69472de2639, type: 3}
