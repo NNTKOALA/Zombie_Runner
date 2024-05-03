@@ -12,16 +12,23 @@ public class EnemyAI : MonoBehaviour
     NavMeshAgent navMeshAgent;
     float distanceToTarget = Mathf.Infinity;
     bool isProvoked = false;
+    EnemyHealth health;
 
     // Start is called before the first frame update
     void Start()
     {
         navMeshAgent = GetComponent<NavMeshAgent>();
+        health = GetComponent<EnemyHealth>();
     }
 
     // Update is called once per frame
     void Update()
     {
+        if (health.IsDead())
+        {
+            enabled = false;
+            navMeshAgent.enabled = false;
+        }
         distanceToTarget = Vector3.Distance(transform.position, target.position);
         if (isProvoked )
         {
@@ -57,12 +64,14 @@ public class EnemyAI : MonoBehaviour
 
     private void ChaseTarget()
     {
+        GetComponent<Animator>().SetBool("attack", false);
+        GetComponent<Animator>().SetTrigger("move");
         navMeshAgent.SetDestination(target.position);
     }
 
     private void AttackTarget()
     {
-        Debug.Log(name + " has seeked and is destroying " + target.name);
+        GetComponent<Animator>().SetBool("attack", true);
     }
 
     private void FaceTarget()
