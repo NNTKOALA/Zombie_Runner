@@ -23,7 +23,7 @@ RenderSettings:
   m_AmbientSkyColor: {r: 0.212, g: 0.227, b: 0.259, a: 1}
   m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
   m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
-  m_AmbientIntensity: 0
+  m_AmbientIntensity: 1.5
   m_AmbientMode: 0
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
   m_SkyboxMaterial: {fileID: 2100000, guid: e38f7586464606b4fb5ac7c68fdf73d8, type: 2}
@@ -7252,10 +7252,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: UI
       objectReference: {fileID: 0}
-    - target: {fileID: 4988891984035478463, guid: a4dd1ba2c55388e4b91ab68303f84b74, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a4dd1ba2c55388e4b91ab68303f84b74, type: 3}
 --- !u!223 &4988891984801590595 stripped
@@ -7338,13 +7334,5 @@ PrefabInstance:
       propertyPath: impactCanvas
       value: 
       objectReference: {fileID: 4988891984801590595}
-    - target: {fileID: 8196802781281084425, guid: 7fcfc3cc3d483b7469bba59d0832cb71, type: 3}
-      propertyPath: ammoSlots.Array.data[1].ammoType
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8196802781281084425, guid: 7fcfc3cc3d483b7469bba59d0832cb71, type: 3}
-      propertyPath: ammoSlots.Array.data[2].ammoType
-      value: 2
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7fcfc3cc3d483b7469bba59d0832cb71, type: 3}

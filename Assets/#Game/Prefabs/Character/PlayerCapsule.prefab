@@ -11176,11 +11176,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ammoSlots:
   - ammoType: 0
-    ammoAmount: 10
-  - ammoType: 0
     ammoAmount: 20
-  - ammoType: 0
-    ammoAmount: 8
+  - ammoType: 1
+    ammoAmount: 20
+  - ammoType: 2
+    ammoAmount: 20
 --- !u!114 &6028721566360534963
 MonoBehaviour:
   m_ObjectHideFlags: 0
