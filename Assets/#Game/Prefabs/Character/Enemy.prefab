@@ -150,8 +150,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0de8655d738b232498facf6421ecd382, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  chaseRange: 5
-  turnSpeed: 5
+  chaseRange: 6
+  turnSpeed: 10
 --- !u!114 &5952523677005312492
 MonoBehaviour:
   m_ObjectHideFlags: 0
