@@ -389,7 +389,7 @@ MonoBehaviour:
   range: 25
   damage: 15
   muzzleFlash: {fileID: 2797948884882118201}
-  hitEffect: {fileID: 216587030436623059, guid: 8d8ede20163ae5f4a939a225db9ba86c, type: 3}
+  hitEffect: {fileID: 7542663103108456607, guid: ec4341b0255ad9f4aa68a29637e0fc28, type: 3}
   ammoSlot: {fileID: 8196802781281084425}
   ammoType: 0
   timeBetweenShots: 0.5
@@ -10509,7 +10509,7 @@ MonoBehaviour:
   range: 10
   damage: 50
   muzzleFlash: {fileID: 2797948884117796876}
-  hitEffect: {fileID: 216587030436623059, guid: 8d8ede20163ae5f4a939a225db9ba86c, type: 3}
+  hitEffect: {fileID: 7542663103108456607, guid: ec4341b0255ad9f4aa68a29637e0fc28, type: 3}
   ammoSlot: {fileID: 8196802781281084425}
   ammoType: 1
   timeBetweenShots: 2
@@ -10620,7 +10620,7 @@ MonoBehaviour:
   range: 50
   damage: 40
   muzzleFlash: {fileID: 2797948883829103280}
-  hitEffect: {fileID: 216587030436623059, guid: 8d8ede20163ae5f4a939a225db9ba86c, type: 3}
+  hitEffect: {fileID: 7542663103108456607, guid: ec4341b0255ad9f4aa68a29637e0fc28, type: 3}
   ammoSlot: {fileID: 8196802781281084425}
   ammoType: 2
   timeBetweenShots: 1
